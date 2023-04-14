@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.renderControlCharacters": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": true,
+    "python.formatting.yapfArgs": [
+        "--style={based_on_style: google, column_limit: 80, indent_width: 2}"
+    ]
+	}
+}
